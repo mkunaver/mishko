@@ -1,0 +1,57 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Računalniško programiranje, analize in obdelave podatkov
+short_name: Maja Kunaver s.p.
+email: maja@kunaver.si
+phone: "040 243 735"
+description: >- # this means to ignore newlines until "baseurl:"
+  Programiranje namiznih aplikacij, analize in obdelave podatkov, izdelava spletnih strani.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: ttp://www.kunaver.si" # the base hostname & protocol for your site, e.g. http://example.com
+mission: >- 
+  Z uporabo Z učinkotvito uporabo informacijskih tehnologij do obvladovanja in 
+  avtomatizacije delovnih procesov in večje učinkovitosti.
+about: >- 
+  Sem diplomirani inženir matematike. 12 let sem se ukvarjala z analiziranjem podatkov v zavarovalništvu. Iskala sem 
+  nepravilnosti v podatkih, pomagala pri vzpostavitvi programskega orodja za odkrivanje in preprečevanje goljufij,
+  sodelovala pri vzpostavitvi nacionalne sheme za elektronsko izmenjavo podatov v zavarovalništvu. Znanje programiranja mi
+  je olajšalo in močno pohitrilo delo. Ko sem postala mamica, sem se odločila, da želim imeti bolj prilagodljiv urnik. Ker 
+  me je vedno zanimalo programiranje, sem začela svoje znanje poglabljati in sodelovati s kolegi programerji. Pridružila sem 
+  se še programu [Podjetništvo je ženskega spola](https://www.skupnost-podjetnic.si/), kjer sem 
+  dobila dodaten zagon in tako se je začela moja samostojna pot.
+solutions: >-
+  Svetujem v procesu izbire najprimernejše oblike programske rešitve za vaš problem in rešitev samostojno ali v 
+  sodelovanju z naročnikom tudi izdelam. Izdelujem in dodelujem 'à la carte' programsko opremo. 
+cooperation: >-
+  Sodelujem s konzorcijem programerjev izjemno širokim spektrom znanj in izkušenj. 
+twitter_username: pouhek
+github_username:  mkunaver  
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

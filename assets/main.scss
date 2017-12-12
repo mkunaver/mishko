@@ -1,0 +1,48 @@
+---
+---
+
+
+@import "variables";
+@import "bootstrap/scss/bootstrap";
+
+$MK-light: #90B273;
+
+.content {
+  font-size: $custom-font-size;
+}
+
+section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	text-align: center;
+	margin: 0;
+}
+
+.image {
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer {
+	background-color: $MK-light;
+	font-size: 12px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.info {
+	text-align: center;
+}
+
+.main {
+	margin-top: 40px;
+	min-height: 100vh;
+
+}

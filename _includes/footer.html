@@ -1,0 +1,36 @@
+
+<footer>
+
+
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <!-- Contact buttons -->
+              <button class="btn btn-black rounded-0 d-block d-md-none">040 243 735</button>
+              <a href="mailto:info@v-m-a.net" class="btn btn-black rounded-0 d-block d-md-none">maja@kunaver.si</a>
+              
+              <!-- Company info -->
+              <p>
+                  <strong>Računalniško programiranje, analize in obdelave podatkov, Maja Kunaver, s.p.</strong>
+              </p>
+              <address>
+                  Polje, cesta XXVI/22<br>
+                  1260 Ljubljana
+              </address>
+          </div>
+          <div class="col-md-4 info">
+            {% if site.email %}
+              e-naslov: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            {% endif %}
+          </div>
+          <div class="col-md-4 info">
+            {% if site.email %}
+              telefonska številka: <a href="{{ site.phone }}">{{ site.phone }}</a>
+            {% endif %}
+          </div>
+
+      </div>
+  </div>
+
+
+</footer>

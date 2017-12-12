@@ -1,0 +1,57 @@
+<html>
+<head>
+	<!-- site css -->
+	<link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+	<!-- Image and text -->
+<div class="site">
+	<div class="logo">
+		<img src="/assets/images/logo.png" width="80" height=auto class="d-inline-block align-top" alt="MK">
+	</div>
+	<div class="container main">
+		<section>
+			<div class="row">
+				<div class="col-md-6 section-title">
+					<h2>Poslanstvo</h2>
+				</div>
+				<div class="col-md-6">
+					{{site.mission}}
+				</div>
+			</div>
+		</section>	
+		<hr>
+		<section>
+			<div class="row">
+				<div class="col-md-6">
+					{{site.solutions | markdownify }}
+				</div>
+				<div class="col-md-6">
+					<h2>Rešitve</h2>
+				</div>
+				
+			</div>
+		</section>
+		<hr>
+		<section>
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Sodelovanje</h2>
+					
+				</div>
+				<div class="col-md-6">
+					{{site.cooperation}}
+				</div>
+			</div>
+		</section>
+	</div>
+			
+
+	{% include footer.html%}
+</div>
+
+	<script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script>
+	<script src="{{'/node_modules/popper.js/dist/popper.min.js' | prepend: site.baseurl}}"></script>
+	<script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+</body>
+</html>
